@@ -374,3 +374,68 @@ solid cube_corner
   endfacet
 endsolid
 ```
+
+## การใช้งานสัญลักษณ์ทางคณิตศาสตร์(Writing mathenatilcal expressions)
+#### Syntax:
+```
+This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$ // $\ สมการ
+This sentence uses $\` and \`$ delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$ // $`สมการ`$
+```
+#### Output:
+This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$<br />
+This sentence uses $\` and \`$ delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
+
+## สร้างคณิตศาสตร์ในรูปแบบบล็อค(Writing expressions as blocks)
+#### Syntax:
+````
+**The Cauchy-Schwarz Inequality**\
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$ // ใช้ $$ แล้วปิดด้วย $$
+
+**The Cauchy-Schwarz Inequality**
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) //หรือใช้ ```math ปิดด้วย ```
+```
+````
+#### Output:
+**The Cauchy-Schwarz Inequality**\
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+**The Cauchy-Schwarz Inequality**
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+## วิธีใช้สัญลักษณ์ $ (Writing dollar signs in line with and within mathematical expressions)
+#### Syntax:
+```
+This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
+
+To split <span>$</span>100 in half, we calculate $100/2$
+
+// จะใช้ \$ หรือ <span>$</span> ก็ได้
+```
+#### Output:
+This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$<br />
+To split <span>$</span>100 in half, we calculate $100/2$
+
+## URLs
+#### Syntax:
+```
+Visit https://github.com
+```
+#### Output:
+Visit https://github.com
+
+## สร้าง Checkbox(Creating task list)
+#### Syntax:
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+#### Output:
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
