@@ -122,3 +122,17 @@ function test() {
 Look! You can see my backticks.
 ```
 ````
+
+## ไฮไลท์โค้ด(Syntax highlighting)
+#### Syntax:
+````
+```python
+markdown = "Hello World!"
+print(markdown)
+```
+````
+#### Output:
+```python
+markdown = "Hello World!"
+print(markdown)
+```
